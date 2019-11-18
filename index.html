@@ -8,6 +8,8 @@
           let score = $("#score").val();
           if (score >= 80) {
             $("p").html("A");
+          } else if (score >= 70) {
+            $("p").html("B");
           } else {
             $("p").html("F");
           }
